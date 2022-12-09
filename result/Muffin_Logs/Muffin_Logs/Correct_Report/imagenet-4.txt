@@ -1,0 +1,28 @@
+[ERROR] Crash when training model with theano
+Traceback (most recent call last):
+  File "D:\BigChuangMission\Muffin\src\incons_detection\train.py", line 237, in <module>
+    __get_gradients(model, input_objects_names, ins, ins_value, layers_outputs_value, y, flags.gradients_dir, flags.model_info_path)
+  File "D:\BigChuangMission\Muffin\src\incons_detection\train.py", line 107, in __get_gradients
+    K.gradients(model.total_loss, layer_outputs)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\backend\theano_backend.py", line 1458, in gradients
+    return T.grad(loss, variables)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 511, in grad
+    outputs, wrt, consider_constant)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 952, in _populate_var_to_app_to_idx
+    visit(elem)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 949, in visit
+    visit(output)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 949, in visit
+    visit(output)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 949, in visit
+    visit(output)
+  [Previous line repeated 986 more times]
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 945, in visit
+    connection_pattern = _node_to_pattern(node)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 804, in _node_to_pattern
+    for ipt in node.inputs]
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 804, in <listcomp>
+    for ipt in node.inputs]
+RecursionError: maximum recursion depth exceeded
+
+

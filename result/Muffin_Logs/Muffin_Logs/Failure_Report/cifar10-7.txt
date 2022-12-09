@@ -1,0 +1,36 @@
+[ERROR] Crash when training model with theano
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\compile\function_module.py", line 903, in __call__
+    self.fn() if output_subset is None else\
+ValueError: Input dimension mis-match. (input[1].shape[2] = 33, input[2].shape[2] = 32)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\BigChuangMission\Muffin\src\incons_detection\train.py", line 231, in <module>
+    layers_outputs_value = __get_outputs(model, input_objects_names, x, flags.outputs_dir)
+  File "D:\BigChuangMission\Muffin\src\incons_detection\train.py", line 40, in __get_outputs
+    layers_outputs = get_layer_output(x + [1])
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\backend\theano_backend.py", line 1430, in __call__
+    outputs = self.function(*inputs)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\compile\function_module.py", line 917, in __call__
+    storage_map=getattr(self.fn, 'storage_map', None))
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gof\link.py", line 325, in raise_with_op
+    reraise(exc_type, exc_value, exc_trace)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\compile\function_module.py", line 903, in __call__
+    self.fn() if output_subset is None else\
+ValueError: Input dimension mis-match. (input[1].shape[2] = 33, input[2].shape[2] = 32)
+Apply node that caused the error: Elemwise{Composite{((i0 * (i1 + Abs(i1))) + (i0 * i2 * (i1 - Abs(i1))))}}(TensorConstant{(1, 1, 1, 1) of 0.5}, Elemwise{Composite{Switch(GT((i0 + i1), i2), (i0 + i1), expm1((i0 + i1)))}}[(0, 0)].0, InplaceDimShuffle{x,0,1,2}.0)
+Toposort index: 22
+Inputs types: [TensorType(float32, (True, True, True, True)), TensorType(float32, 4D), TensorType(float32, (True, True, False, False))]
+Inputs shapes: [(1, 1, 1, 1), (10, 2, 33, 4), (1, 1, 32, 3)]
+Inputs strides: [(4, 4, 4, 4), (1056, 528, 16, 4), (384, 384, 12, 4)]
+Inputs values: [array([[[[0.5]]]], dtype=float32), 'not shown', 'not shown']
+Outputs clients: [['output', InplaceDimShuffle{0,3,1,2}(Elemwise{Composite{((i0 * (i1 + Abs(i1))) + (i0 * i2 * (i1 - Abs(i1))))}}.0)]]
+
+HINT: Re-running with most Theano optimization disabled could give you a back-trace of when this node was created. This can be done with by setting the Theano flag 'optimizer=fast_compile'. If that does not work, Theano optimizations can be disabled with 'optimizer=None'.
+HINT: Use the Theano flag 'exception_verbosity=high' for a debugprint and storage map footprint of this apply node.
+
+

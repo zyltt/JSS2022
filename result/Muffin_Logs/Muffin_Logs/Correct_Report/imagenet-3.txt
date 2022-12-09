@@ -1,0 +1,55 @@
+[ERROR] Crash when training model with theano
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\compile\function_module.py", line 903, in __call__
+    self.fn() if output_subset is None else\
+RuntimeError: CorrMM failed to allocate working memory of 1 x 63948 x 50625
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\BigChuangMission\Muffin\src\incons_detection\train.py", line 231, in <module>
+    layers_outputs_value = __get_outputs(model, input_objects_names, x, flags.outputs_dir)
+  File "D:\BigChuangMission\Muffin\src\incons_detection\train.py", line 40, in __get_outputs
+    layers_outputs = get_layer_output(x + [1])
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\backend\theano_backend.py", line 1430, in __call__
+    outputs = self.function(*inputs)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\compile\function_module.py", line 917, in __call__
+    storage_map=getattr(self.fn, 'storage_map', None))
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gof\link.py", line 325, in raise_with_op
+    reraise(exc_type, exc_value, exc_trace)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\compile\function_module.py", line 903, in __call__
+    self.fn() if output_subset is None else\
+RuntimeError: CorrMM failed to allocate working memory of 1 x 63948 x 50625
+
+Apply node that caused the error: CorrMM{half, (1, 1), (1, 1), 1 False}(InplaceDimShuffle{0,3,1,2}.0, Subtensor{::, ::, ::int64, ::int64}.0)
+Toposort index: 24
+Inputs types: [TensorType(float32, 4D), TensorType(float32, 4D)]
+Inputs shapes: [(10, 3, 224, 224), (5, 3, 146, 146)]
+Inputs strides: [(602112, 4, 2688, 12), (4, 20, -8760, -60)]
+Inputs values: ['not shown', 'not shown']
+Outputs clients: [[Subtensor{int64:int64:int8, int64:int64:int8, int64:int64:int8, :int64:}(CorrMM{half, (1, 1), (1, 1), 1 False}.0, ScalarFromTensor.0, ScalarFromTensor.0, Constant{1}, Constant{0}, Constant{5}, Constant{1}, ScalarFromTensor.0, ScalarFromTensor.0, Constant{1}, ScalarFromTensor.0)]]
+
+Backtrace when the node is created(use Theano flag traceback.limit=N to make it longer):
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\engine\saving.py", line 627, in model_from_config
+    return deserialize(config, custom_objects=custom_objects)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\layers\__init__.py", line 168, in deserialize
+    printable_module_name='layer')
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\utils\generic_utils.py", line 147, in deserialize_keras_object
+    list(custom_objects.items())))
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\engine\network.py", line 1075, in from_config
+    process_node(layer, node_data)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\engine\network.py", line 1025, in process_node
+    layer(unpack_singleton(input_tensors), **kwargs)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\engine\base_layer.py", line 489, in __call__
+    output = self.call(inputs, **kwargs)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\layers\convolutional.py", line 171, in call
+    dilation_rate=self.dilation_rate)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\backend\theano_backend.py", line 2221, in conv2d
+    filter_dilation=dilation_rate)
+
+HINT: Use the Theano flag 'exception_verbosity=high' for a debugprint and storage map footprint of this apply node.
+
+

@@ -1,0 +1,53 @@
+[ERROR] Crash when training model with theano
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\compile\function_module.py", line 903, in __call__
+    self.fn() if output_subset is None else\
+ValueError: padding must be zero for average_exc_pad
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\BigChuangMission\Muffin\src\incons_detection\train.py", line 237, in <module>
+    __get_gradients(model, input_objects_names, ins, ins_value, layers_outputs_value, y, flags.gradients_dir, flags.model_info_path)
+  File "D:\BigChuangMission\Muffin\src\incons_detection\train.py", line 109, in __get_gradients
+    grads = get_gradients(ins_value + [1])
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\backend\theano_backend.py", line 1430, in __call__
+    outputs = self.function(*inputs)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\compile\function_module.py", line 917, in __call__
+    storage_map=getattr(self.fn, 'storage_map', None))
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gof\link.py", line 325, in raise_with_op
+    reraise(exc_type, exc_value, exc_trace)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\compile\function_module.py", line 903, in __call__
+    self.fn() if output_subset is None else\
+ValueError: padding must be zero for average_exc_pad
+Apply node that caused the error: AveragePoolGrad{ignore_border=True, mode='average_exc_pad', ndim=2}(InplaceDimShuffle{0,3,1,2}.0, IncSubtensor{InplaceInc;::, ::, :int64:, :int64:}.0, TensorConstant{(2,) of 85}, TensorConstant{(2,) of 59}, TensorConstant{(2,) of 83})
+Toposort index: 74
+Inputs types: [TensorType(float32, 4D), TensorType(float32, 4D), TensorType(int32, vector), TensorType(int32, vector), TensorType(int32, vector)]
+Inputs shapes: [(10, 3, 224, 224), (10, 3, 6, 6), (2,), (2,), (2,)]
+Inputs strides: [(602112, 4, 2688, 12), (432, 144, 24, 4), (4,), (4,), (4,)]
+Inputs values: ['not shown', 'not shown', array([85, 85]), array([59, 59]), array([83, 83])]
+Outputs clients: [[InplaceDimShuffle{0,2,3,1}(AveragePoolGrad{ignore_border=True, mode='average_exc_pad', ndim=2}.0)]]
+
+Backtrace when the node is created(use Theano flag traceback.limit=N to make it longer):
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 605, in grad
+    grad_dict, wrt, cost_name)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 1371, in _populate_grad_dict
+    rval = [access_grad_cache(elem) for elem in wrt]
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 1371, in <listcomp>
+    rval = [access_grad_cache(elem) for elem in wrt]
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 1326, in access_grad_cache
+    term = access_term_cache(node)[idx]
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 1021, in access_term_cache
+    output_grads = [access_grad_cache(var) for var in node.outputs]
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 1021, in <listcomp>
+    output_grads = [access_grad_cache(var) for var in node.outputs]
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 1326, in access_grad_cache
+    term = access_term_cache(node)[idx]
+  File "D:\anaconda3\envs\muffin\lib\site-packages\theano\gradient.py", line 1162, in access_term_cache
+    new_output_grads)
+
+HINT: Use the Theano flag 'exception_verbosity=high' for a debugprint and storage map footprint of this apply node.
+
+

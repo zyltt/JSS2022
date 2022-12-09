@@ -1,0 +1,132 @@
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable type object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object
+Traceback (most recent call last):
+  File "C:\Users\zou\Desktop\HNAS2022.7.24\main.py", line 50, in <module>
+    torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff = worker.excute()
+TypeError: cannot unpack non-iterable Exception object

@@ -1,0 +1,3 @@
+RuntimeError: mindspore\ccsrc\backend\common\session\cpu_session.cc:386 BuildKernel] could not create a descriptor for a dilated convolution forward propagation primitive
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+[CRITICAL] SESSION(5740,2,?):2022-7-21 17:35:7 [mindspore\ccsrc\backend\common\session\cpu_session.cc:386] BuildKernel] could not create a descriptor for a dilated convolution forward propagation primitive

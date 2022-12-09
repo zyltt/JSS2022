@@ -1,0 +1,19 @@
+[ERROR] Crash when training model with tensorflow
+Traceback (most recent call last):
+  File "D:\BigChuangMission\Muffin\src\incons_detection\train.py", line 229, in <module>
+    model, input_objects_names, output_layers_names, x, y, ins, ins_value = __prepare(flags.loss, flags.optimizer, flags.training_instances_path, flags.ground_truths_path, flags.model_path, flags.model_info_path)
+  File "D:\BigChuangMission\Muffin\src\incons_detection\train.py", line 28, in __prepare
+    x, y, sample_weight = model._standardize_user_data(training_instances, ground_truths)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\engine\training.py", line 642, in _standardize_user_data
+    y, self._feed_loss_fns, feed_output_shapes)
+  File "D:\anaconda3\envs\muffin\lib\site-packages\keras\engine\training_utils.py", line 284, in check_loss_and_target_compatibility
+    ' while using as loss `categorical_crossentropy`. '
+ValueError: You are passing a target array of shape (10, 1) while using as loss `categorical_crossentropy`. `categorical_crossentropy` expects targets to be binary matrices (1s and 0s) of shape (samples, classes). If your targets are integer classes, you can convert them to the expected format via:
+```
+from keras.utils import to_categorical
+y_binary = to_categorical(y_int)
+```
+
+Alternatively, you can use the loss function `sparse_categorical_crossentropy` instead, which does expect integer targets.
+
+

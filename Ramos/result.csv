@@ -1,0 +1,1 @@
+No,torch_tf_max_diff,torch_tf_mean_diff,torch_mindspore_max_diff,torch_mindspore_mean_diff,tf_mindspore_max_diff,tf_mindspore_mean_diff,avg_max_diff,avg_mean_diff,channels,model,fail_time

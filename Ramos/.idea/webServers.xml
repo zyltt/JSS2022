@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3f826120-4e77-4874-9fa9-dabc4f84adce" name="root">
+        <fileTransfer accessType="SFTP" host="210.28.133.13" port="21305" sshConfigId="b92959e9-c523-40b3-90d5-68a88f33b227" sshConfig="root@210.28.133.13:21305 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="3505542e-c833-4bc4-a6a6-58563933ffd6" name="root2">
+        <fileTransfer accessType="SFTP" host="210.28.133.13" port="21372" sshConfigId="029a319f-a2d8-478f-b261-50abb5073ee6" sshConfig="root@210.28.133.13:21372 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="461edd60-e1f7-4852-a65f-79b72da339ad" name="root3">
+        <fileTransfer accessType="SFTP" host="210.28.133.13" port="21373" sshConfigId="81a7a318-bffc-4268-b6d5-9d756fe2ae28" sshConfig="root@210.28.133.13:21373 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ec49b2d3-2e8b-483f-a17a-b269f81db2ff" name="superroot">
+        <fileTransfer accessType="SFTP" host="210.28.133.13" port="21384" sshConfigId="84e4ac6a-4972-4753-a76a-ab7209651801" sshConfig="root@210.28.133.13:21384 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
